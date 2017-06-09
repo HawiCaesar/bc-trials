@@ -31,23 +31,53 @@
 			clear: none;
 			margin: 2px 0 0 2px;
 		}
+		.panel-body p{
+			padding-bottom: 10px;
+		}
 	</style>
 </head>
 <body>
-	<div class="row" style="margin-right: 0px;">
-		<div class="col-xs-10 col-sm-8" style="margin-left:5%;"">
-			<div><img src="eshop_logo.jpg" width="100" height="100" ></div>
-			<h2>3. Order Payment</h2>
-			<div class="btn-group">
-				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="padding:6px 40px;">
-					View My Order <span class="caret"></span>
-				</button>
-				<ul class="dropdown-menu" role="menu">
-					<li><a href="#">Item 1 | Quantity: 5 | Total: Kshs.500</a></li>
-					<li><a href="#">Item 2 | Quantity: 5 | Total: Kshs.500</a></li>
-					<li><a href="#">Item 3 | Quantity: 5 | Total: Kshs.500</a></li>
-					<li><a href="#">Item 4 | Quantity: 5 | Total: Kshs.500</a></li>
-				</ul>
+
+<div class="row" style="margin-right: 0px;">
+	<div class="col-xs-10 col-sm-8" style="margin-left:5%;">
+		<div><img src="eshop_logo.jpg" width="100" height="100" ></div>
+		<h2>3. Order Payment</h2>
+		<div class="btn-group">
+		  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="padding:6px 40px;">
+		    ** View My Order <span class="caret"></span>
+		  </button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Item 1 | Quantity: 5 | Total: Kshs.500</a></li>
+		    <li><a href="#">Item 2 | Quantity: 5 | Total: Kshs.500</a></li>
+		    <li><a href="#">Item 3 | Quantity: 5 | Total: Kshs.500</a></li>
+		    <li><a href="#">Item 4 | Quantity: 5 | Total: Kshs.500</a></li>
+		  </ul>
+		</div>
+
+		<h3>GRAND TOTAL: Kshs.2000</h3>
+		<hr style="border-style: dashed;border-color:#000" />
+
+		<h2 style="padding:20px 0px 10px 0px">Payment Method</h2>
+
+		<fieldset>
+		  <div class="pay-method-class">
+		    <input type="radio" checked class="radio" name="pay_method" value="delivery" id="delivery" onclick="show_DeliveryOption()"/>
+		    <label for="y">Pay On Delivery</label>
+		    <input type="radio" class="radio" name="pay_method" value="mpesa" id="mpesa" onclick="show_MPESAOption()"/>
+		    <label for="z">Pay with M-PESA</label>
+		    <input type="radio" class="radio" name="pay_method" value="pay_gateway" id="pay_gateway" onclick="show_PayGateWayOption()"/>
+		    <label for="z">Pay with Payment Gateway</label>
+		  </div>
+		</fieldset>
+
+		<div class="panel panel-primary" style="padding:10px 10px 0px 10px" id="delivery-option">
+			<h3 class="panel-title">Pay On Delivery</h3>
+			<div class="panel-body">
+				<p>Your items will arrive in 2-5 Days.</p>
+
+				<p><button class="btn btn-primary"> Done with Payment</button>
+					<button class="btn btn-secondary"> Back To Shopping</button>
+				</p>
 			</div>
 
 			<h3>GRAND TOTAL: Kshs.2000</h3>
