@@ -56,11 +56,11 @@
 
 		<fieldset>
 		  <div class="pay-method-class">
-		    <input type="radio" checked class="radio" name="pay_method" value="delivery" id="delivery"/>
+		    <input type="radio" checked class="radio" name="pay_method" value="delivery" id="delivery" onclick="show_DeliveryOption()"/>
 		    <label for="y">Pay On Delivery</label>
-		    <input type="radio" class="radio" name="pay_method" value="mpesa" id="mpesa" />
+		    <input type="radio" class="radio" name="pay_method" value="mpesa" id="mpesa" onclick="show_MPESAOption()"/>
 		    <label for="z">Pay with M-PESA</label>
-		    <input type="radio" class="radio" name="pay_method" value="pay_gateway" id="pay_gateway" />
+		    <input type="radio" class="radio" name="pay_method" value="pay_gateway" id="pay_gateway" onclick="show_PayGateWayOption()"/>
 		    <label for="z">Pay with Payment Gateway</label>
 		  </div>
 		</fieldset>
