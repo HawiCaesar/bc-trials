@@ -12,10 +12,10 @@
 		  overflow: hidden
 		}
 
-		.some-class {
+		.pay-method-class{
 		  float: left;
 		  clear: none;
-		  border: 1px solid black;
+		  padding-bottom: 20px;
 		}
 
 		label {
@@ -55,8 +55,8 @@
 		<h2 style="padding:20px 0px 10px 0px">Payment Method</h2>
 
 		<fieldset>
-		  <div class="some-class">
-		    <input type="radio" checked class="radio" name="pay_method" value="delivery" id="delivery" />
+		  <div class="pay-method-class">
+		    <input type="radio" checked class="radio" name="pay_method" value="delivery" id="delivery"/>
 		    <label for="y">Pay On Delivery</label>
 		    <input type="radio" class="radio" name="pay_method" value="mpesa" id="mpesa" />
 		    <label for="z">Pay with M-PESA</label>
@@ -65,9 +65,38 @@
 		  </div>
 		</fieldset>
 
+		<div class="panel panel-primary" style="padding:10px 10px 0px 10px" id="delivery-option">
+			<h3 class="panel-title">Pay On Delivery</h3>
+			<div class="panel-body">
+				<p>Your items will arrive in 2-5 Days.</p>
+
+				<p><button class="btn btn-primary"> Done with Payment</button></p>
+			</div>
+		</div>
+
+		<div class="panel panel-primary" style="padding:10px 10px 0px 10px" id="mpesa-option">
+			<h3 class="panel-title">Pay with M-PESA</h3>
+			<div class="panel-body">
+				<p>Your items will arrive in 2-5 Days.</p>
+
+				<p><button class="btn btn-primary"> Done with Payment</button></p>
+			</div>
+		</div>
+
+		<div class="panel panel-primary" style="padding:10px 10px 0px 10px" id="pay-gateway-option">
+			<h3 class="panel-title">Pay with Payment Gateway</h3>
+			<div class="panel-body">
+				<p>Your items will arrive in 2-5 Days.</p>
+
+				<p><button class="btn btn-primary"> Done with Payment</button></p>
+			</div>
+		</div>
+
 	</div>
 </div>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 </body>
 </html>
