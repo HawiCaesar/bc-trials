@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkout | Order Payment</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta name="author" content="HawiCaesar" />
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<style type="text/css">
+		fieldset {
+		  overflow: hidden
+		}
+
+		.some-class {
+		  float: left;
+		  clear: none;
+		  border: 1px solid black;
+		}
+
+		label {
+		  float: left;
+		  clear: none;
+		  display: block;
+		  padding: 2px 1em 0 0;
+		}
+
+		input[type=radio],
+		input.radio {
+		  float: left;
+		  clear: none;
+		  margin: 2px 0 0 2px;
+		}
+	</style>
+</head>
+<body>
+<div class="row" style="margin-right: 0px; border: 1px solid green">
+	<div class="col-xs-10 col-sm-8" style="margin-left:5%;"">
+		<h2>3. Order Payment</h2>
+		<div class="btn-group">
+		  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+		    View My Order <span class="caret"></span>
+		  </button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Item 1 | Quantity: 5 | Total: Kshs.500</a></li>
+		    <li><a href="#">Item 2 | Quantity: 5 | Total: Kshs.500</a></li>
+		    <li><a href="#">Item 3 | Quantity: 5 | Total: Kshs.500</a></li>
+		    <li><a href="#">Item 4 | Quantity: 5 | Total: Kshs.500</a></li>
+		  </ul>
+		</div>
+
+		<h3>GRAND TOTAL: Kshs.2000</h3>
+		<hr style="border-style: dashed;border-color:#000" />
+
+		<h2 style="padding:20px 0px 10px 0px">Payment Method</h2>
+
+		<fieldset>
+		  <div class="some-class">
+		    <input type="radio" checked class="radio" name="pay_method" value="delivery" id="delivery" />
+		    <label for="y">Pay On Delivery</label>
+		    <input type="radio" class="radio" name="pay_method" value="mpesa" id="mpesa" />
+		    <label for="z">Pay with M-PESA</label>
+		    <input type="radio" class="radio" name="pay_method" value="pay_gateway" id="pay_gateway" />
+		    <label for="z">Pay with Payment Gateway</label>
+		  </div>
+		</fieldset>
+
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
