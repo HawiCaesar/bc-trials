@@ -8,23 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	
 	<style type="text/css">
-		fieldset {
-			overflow: hidden
-		}
-
-
-		label {
-			float: left;
-			clear: none;
-			display: block;
-			padding: 2px 1em 0 0;
-		}
 		input[type=checkbox]{
 			margin: 17px 18px 17px
 
-		}
-		.panel-body p{
-			padding-bottom: 10px;
 		}
 	</style>
 </head>
@@ -34,18 +20,18 @@
 	<div class="col-xs-10 col-sm-8" style="margin-left:5%;">
 		<h1>Today's Bucket List</h1>
 
-		<ol> 
-			<li><div class="check"><input type="checkbox" name="">Do task A</div></li>
+		<ul id="bucket_list"> 
+			<li><div class="check"><input type="checkbox" name="">Do task A </div></li>
 			<li><div class="check"><input type="checkbox" name="">Do task B </div></li>
 			<li><div class="check"><input type="checkbox" name="">Do task C </div></li>
 			<li><div class="check"><input type="checkbox" name="">Do task D </div></li>
 			<li><div class="check"><input type="checkbox" name="">Do task E </div></li>
-		</ol>
+		</ul>
 
-		<form action="#">
+		<form>
 			<div class="input-group">
-				<input type="text" name="" class="form-control" placeholder="Enter an To Do">
-				<button class="btn btn-primary" type="submit">Add To Do Task</button>
+				<input type="text" name="" id="item_to_do" class="form-control" value="" placeholder="Enter an To Do">
+				<input class="btn btn-primary" onclick="addItem()" value="Add To Do Task">
 			</div>
 		</form>
 	</div>
@@ -54,6 +40,12 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<script>
+		function addItem(){
+			var item_to_do  = document.getElementById('item_to_do').value
+			var bucket_list = document.getElementById('bucket_list')
+
+			bucket_list.innerHTML = bucket_list.innerHTML + '<li><div class="check"><input type="checkbox" name="">'+item_to_do+'</div></li>';
+		}
 
 	</script>
 </body>
