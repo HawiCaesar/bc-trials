@@ -1,0 +1,461 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"except"
+			],
+			[
+				"n",
+				"numbers_by_list"
+			],
+			[
+				"nu",
+				"numbers_by_tuple"
+			],
+			[
+				"ou",
+				"output_string"
+			],
+			[
+				"inpu",
+				"input_string"
+			],
+			[
+				"ans",
+				"answer"
+			],
+			[
+				"te",
+				"test_answer_yes"
+			],
+			[
+				"test",
+				"test_case"
+			],
+			[
+				"pri",
+				"printString"
+			],
+			[
+				"in",
+				"input_string"
+			],
+			[
+				"s",
+				"input_string"
+			],
+			[
+				"int",
+				"integral_dictionary"
+			],
+			[
+				"is",
+				"isDivisibleBy_5"
+			],
+			[
+				"PHE",
+				"PHRASE_FIRST"
+			],
+			[
+				"sn",
+				"snippet"
+			],
+			[
+				"ph",
+				"PHRASES"
+			],
+			[
+				"snipp",
+				"snippets"
+			],
+			[
+				"WORD",
+				"WORD_URL"
+			],
+			[
+				"P",
+				"PHRASE_FIRST"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"Reac",
+				"React"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"margin",
+				"margin-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "views.py",
+			"settings":
+			{
+				"buffer_size": 197,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSublimeLinter\n-------------\n\n  \n    ____        _     _ _                _     _       _\n   / ___| _   _| |__ | (_)_ __ ___   ___| |   (_)_ __ | |_ ___ _ __\n   \\___ \\| | | | '_ \\| | | '_ ` _ \\ / _ \\ |   | | '_ \\| __/ _ \\ '__|\n    ___) | |_| | |_) | | | | | | | |  __/ |___| | | | | ||  __/ |\n   |____/ \\__,_|_.__/|_|_|_| |_| |_|\\___|_____|_|_| |_|\\__\\___|_|\n  \n  \n  Welcome to SublimeLinter, a linter framework for Sublime Text 3.\n  \n                   * * * IMPORTANT! * * *\n  \n          SublimeLinter 3 is NOT a drop-in replacement for\n          earlier versions.\n  \n          Linters *NOT* included with SublimeLinter 3, \n          they must be installed separately.\n  \n          The settings are different.\n  \n                  * * * READ THE DOCS! * * *\n  \n  Otherwise you will never know how to install linters, nor will\n  you know about all of the great new features in SublimeLinter 3.\n  \n  For complete documentation on how to install and use SublimeLinter,\n  please see:\n  \n  http://www.sublimelinter.com\n  \n  \n                   _   _      _       _\n                  | | | | ___| |_ __ | |\n                  | |_| |/ _ \\ | '_ \\| |\n                  |  _  |  __/ | |_) |_|\n                  |_| |_|\\___|_| .__/(_)\n                               |_|\n  \n  \n  Hundreds of hours have been spent writing and documenting SublimeLinter\n  to make it the best it can be — easy to use, easy to configure,\n  easy to update, easy to extend. If you use SublimeLinter and feel\n  it is making your coding life better and easier, please consider\n  making a donation to help fund development and support.\n  \n  To donate: https://github.com/SublimeLinter/SublimeLinter3#share-the-love\n  \n  Thank you!\n\n\nSublimeLinter-pylint\n--------------------\n\n  SublimeLinter-pylint\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to pylint.\n  \n  INSTALLATION\n  ------------\n  Before this plugin will activate, you *must* follow the installation\n  instructions here:\n  \n  https://github.com/SublimeLinter/SublimeLinter-pylint\n",
+			"settings":
+			{
+				"buffer_size": 2103,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "/home/hawi/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 1976,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 331.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Install Package Control"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 300.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/hawi/Documents/python_projects/fl-trials",
+		"/home/hawi/Documents/python_projects/fl-trials/app"
+	],
+	"file_history":
+	[
+		"/home/hawi/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/hawi/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/hawi/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/hawi/Documents/python_projects/fl-trials/views.py",
+		"/home/hawi/Documents/python_projects/fl-trials/app/templates/base.html",
+		"/home/hawi/Documents/python_projects/fl-trials/index.html",
+		"/home/hawi/Documents/python_projects/fl-trials/app/templates/index2.html",
+		"/home/hawi/Documents/python_projects/fl-trials/run.py",
+		"/home/hawi/Documents/python_projects/fl-trials/config.py",
+		"/home/hawi/Documents/python_projects/fl-trials/app/__init__.py",
+		"/home/hawi/Documents/python_projects/fl-trials/hello_world.py",
+		"/home/hawi/Documents/python_projects/flask-trial1/hello_world.py",
+		"/home/hawi/Documents/python_projects/flask-trial1/hellow_world.py",
+		"/home/hawi/Documents/python_projects/python_practice/ex41.py",
+		"/home/hawi/Documents/python_projects/saleor/saleor/core/urls.py",
+		"/home/hawi/Documents/python_projects/saleor/saleor/core/views.py",
+		"/home/hawi/Documents/python_projects/saleor/templates/home.html",
+		"/home/hawi/Documents/python_projects/saleor/templates/base.html",
+		"/home/hawi/Documents/python_projects/python_practice/gedit",
+		"/var/www/html/front-end/src/js/components/Title/Title.js",
+		"/var/www/html/front-end/index.html",
+		"/var/www/html/front-end/src/client.js",
+		"/var/www/html/consolestyle.html"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Default",
+			"x",
+			"num",
+			"Halibut",
+			"convert",
+			"header",
+			"index",
+			"saleor_logo",
+			"db"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/home/hawi/Documents/python_projects/fl-trials"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								656,
+								656
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/hawi/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1976,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"base",
+				"templates/base.html"
+			],
+			[
+				"home.",
+				"templates/home.html"
+			],
+			[
+				"sett",
+				"aftk/settings.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 161.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
