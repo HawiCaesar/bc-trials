@@ -11,15 +11,8 @@ def index():
 def about():
     return render_template("about.html")
 
-
-
-
-"""
-@app.route('/gh')
-def gh():
-	return render_template("a")
-
-fewnfewfrenf()
-"""
+@app.route('/mytasks')
+def mytasks():
+	return render_template("my-tasks.html")
 
 
