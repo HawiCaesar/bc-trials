@@ -1,11 +1,13 @@
 {% extends "base.html" %}
-{% block title %}Login{% endblock %}
+{% block title %}Sign Up{% endblock %}
 {% block body %}
 <div>
-	<h1>My Bucketlist</h1>
-	<p class="lead">Login to my bucketlist</p>
-
+	<h1>Sign Up</h1>
+	<p class="lead">Sign Up and have your very own bucket list</p>
 	<form action="#" method="POST">
+		<div class="form-group">
+			<input type="Name" class="form-control" placeholder="Name">
+		</div>
 		<div class="form-group">
 			<input type="email" class="form-control" placeholder="Email">
 		</div>
@@ -14,8 +16,8 @@
 		</div>
 
 		<div class="form-group">
-			<input type="submit" class="btn btn-primary" value="Login">
+			<input type="submit" class="btn btn-primary" value="Sign Up Bucklist">
 		</div>
 	</form>
-<div>
-{% endblock %} 
+</div>
+{% endblock %}

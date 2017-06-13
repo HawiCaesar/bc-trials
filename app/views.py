@@ -10,6 +10,19 @@ def index():
 def login():
 	return render_template('login.html')
 
+"""
+logic for login
+"""
+
+@app.route('/sign-up')
+def sign_up():
+	return render_template('sign-up.html')
+
+"""
+logic for signup
+
+"""
+
 @app.route('/contact-us')
 def contact():
 	return render_template('contact-us.html')
@@ -21,5 +34,12 @@ def about():
 @app.route('/mytasks')
 def mytasks():
 	return render_template("my-tasks.html")
+
+"""
+create session and with details from dictionary
+
+"""
+
+
 
 
